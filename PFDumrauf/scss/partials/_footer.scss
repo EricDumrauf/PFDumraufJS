@@ -1,0 +1,114 @@
+footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem
+}
+
+@media (min-width: 375px){
+    footer {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width: 1200px){
+    footer {
+        font-size: 1.7rem
+    }
+}
+
+footer p{
+    color: white;
+    margin-bottom: 0rem;
+}
+
+@media (min-width: 1200px){
+    footer p{
+        font-size: 1.7rem
+    }
+}
+
+.footer-contacto, .footer-galeria {
+    margin-top: 0rem;
+}
+footer .col-12, footer .col-md-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#enlaces a:active{
+    color: red;
+}
+
+@media (min-width: 992px){
+    #enlaces a:hover{
+        color: red;
+        transition: 0.3s;
+        cursor:pointer;
+    }
+}
+
+#redes-mobile{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 1rem;
+    font-size: 2.1rem;
+    gap: 10px;
+}
+
+#redes-mobile a:active{
+    color: red;
+}
+
+
+@media (min-width:768px){
+    .iconos{
+        justify-content: end!important;
+        padding-right: 1rem;
+        align-items: end;
+    }
+    #redes-mobile a:hover{
+        color: red;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width:992px){
+    #redes-desktop{
+        display: flex!important;
+    }/*No se utiliza...*/
+}
+
+@media (min-width:768px){
+    .rights {
+        text-align: left;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+}
+
+.div-3 {
+    width: 50%;
+    color: white;
+    padding-top: 1rem;
+}
+
+.redes {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    justify-content: start;
+    flex-direction: row;
+    gap:10px;
+}
+
+.div-logo-footer {
+    margin-left: 6%;
+    width: 10%;
+}
+
+.logo-footer {
+    width: 150px;
+}

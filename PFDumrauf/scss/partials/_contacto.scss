@@ -1,0 +1,87 @@
+/*Formulario de contacto*/
+.formulario {
+    width: 40%;
+}
+
+.formulario div {
+    display: grid;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+#mensaje-desktop{
+    display: none;
+}
+
+.titulo-formulario {
+    display: inline-flex;
+    flex-flow: row wrap;
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+@media (min-width:768px){
+    .titulo-formulario{
+        font-size:3rem;
+    }
+}
+
+@media (min-width:992px){
+    .titulo-formulario{
+        width: 60%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+.formulario label, .formulario input {
+    font-size: 1.5rem;
+}
+
+.formulario input, .formulario textarea {
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 0.2rem 0.5rem;
+}
+
+.div-contacto .card{
+    width: auto;
+    flex-flow: row wrap;
+}
+
+@media (min-width: 992px){
+    .div-contacto .card {
+        width: 60%;
+        margin: 0% 0rem;
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+        height: fit-content;
+    }
+}
+
+.formulario .mensaje {
+    width: 100%;
+}
+
+.btn-form{
+    justify-items: center;
+}
+
+.formulario button {
+    font-size: 1.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (min-width:1024px){
+    .formulario button {
+        width: 200px!important;
+    }
+}

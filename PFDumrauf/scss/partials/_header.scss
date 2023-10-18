@@ -1,0 +1,83 @@
+header {
+    background-color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    .logo {
+        width: 100px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+#arriba .navbar {
+    width: 100%;
+}
+
+@media (min-width:992px){
+    #arriba .container-fluid {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #navbarNav {
+        justify-content: end;
+    }
+}
+
+@media (min-width:1200px){
+    #navbarNav a{
+        font-size: 1.8rem;
+    }
+}
+
+#arriba .navbar-nav {
+    gap: 5px;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width:992px){
+    .navbar-nav {
+        gap: 30px;
+        margin-top: 0.5rem;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#navbarNav {
+    li {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.6rem;
+    }
+    li:active {
+        color: white;
+        background-color: red;
+    }
+}
+
+#navbarNav li:hover {
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 2rem;
+}

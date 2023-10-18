@@ -1,0 +1,57 @@
+.info-nos {
+    background-color: black;
+}
+
+@media (min-width:576px){
+    .info-nos{
+        width: 75px;
+    }
+}
+
+@media (min-width:768px){
+    .info-nos{
+        width: 120px;
+    }
+}
+
+.info-nos{
+    background-color: black;
+}
+
+.info-nos img{
+    width: 60%;
+}
+
+@media (min-width:576px) {
+    .info-nos img{
+        width: 100%;
+    }
+}
+
+.info-nos p{
+    color: white;
+    margin-bottom: 0rem;
+    font-size:2rem;
+    margin-top: 0px!important;
+}
+
+.sob-nos {
+    background-color: black;
+}
+
+.sob-nos h1, .sob-nos h2 {
+    text-align: center;
+    color: white;
+}
+
+.sob-nos h1 {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.sob-nos h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+}

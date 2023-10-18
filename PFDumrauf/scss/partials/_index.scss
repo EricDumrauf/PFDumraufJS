@@ -1,0 +1,419 @@
+@media (min-width:992px){
+    .img-mobile {
+        display: none!important;
+    }
+    .img-desktop {
+        display: block!important;
+    }
+}
+
+#carousel_inicio {
+    background-color: black;
+    position: sticky;
+    .carousel-item img{
+        max-width: 100%;
+        object-fit: cover;
+        height: 200px;
+    }
+    .carousel-caption h2{
+        width:30%;
+        font-size:2.5rem;
+        color: white!important;
+    }
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px){
+    #carousel_inicio{
+        .carousel-caption{
+            bottom: 40%;
+            text-align: left;
+        } 
+        .btn-productos{
+            background-color: white;
+            color: black;
+            padding: 0rem 1rem;
+            padding-top: 0.2rem;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (min-width: 1500px){
+    #carousel_inicio{
+        .btn-productos{
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (min-width:425px){
+    #carousel_inicio .carousel-item img{
+        height: 225px;
+    }
+}
+
+@media (min-width:576px){
+    #carousel_inicio .carousel-item img{
+        height: 250px;
+    }
+}
+
+@media (min-width:768px){
+    #carousel_inicio .carousel-item img{
+        height: 300px;
+    }
+}
+
+@media (min-width:992px){
+    #carousel_inicio .carousel-item img{
+        height: 350px;
+    }
+}
+
+@media (min-width:1024px){
+    #carousel_inicio .carousel-item img{
+        height: 400px;
+    }
+}
+
+@media (min-width:1200px){
+    #carousel_inicio .carousel-item img{
+        height: 500px;
+    }
+}
+
+@media (min-width:1440px){
+    #carousel_inicio .carousel-item img{
+        height: 600px;
+    }
+}
+
+@media (min-width:1600px){
+    #carousel_inicio .carousel-item img{
+        height: 700px;
+    }
+}
+
+@mixin mixin_btn_carousel{
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    align-self: flex-start;
+    font-size: 2rem;
+}
+
+.btn-productos-carousel{
+    width: 20%;
+    text-align: left;
+    @include mixin_btn_carousel;
+}
+
+.presentation {
+    color: black;
+    margin-top: 10%;
+    font-size: 2.2rem;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media (min-width:576px){
+    .presentation {
+        margin-top: 8%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width:768px){
+    .presentation{
+        font-size:3rem;
+    }
+}
+
+@media (min-width:992px){
+    .presentation {
+        margin-top: 6%;
+        font-size: 3.5rem;
+    }
+}
+
+#productos-inicio .card{
+    justify-content: space-between;
+}
+
+#carousel_productos {
+    position: sticky;
+}
+
+#carousel_inicio .fa-chevron-left, #carousel_inicio .fa-chevron-right{
+    color: rgb(255, 255, 255);
+}
+
+.fa-chevron-circle-left, .fa-chevron-circle-right {
+    color: rgb(72, 72, 72);
+}
+
+@media (min-width: 992px){
+    #carousel_productos {
+        display: none;
+    }
+    #productos-inicio .d-none {
+        display: flex!important;
+    }
+}
+
+/*Sobre nosotros index*/
+
+@media (min-width: 768px){
+    #info-empresa-mobile{
+        display: none;
+    }
+    #info-empresa {
+        display: block!important;
+        margin: 5% 0;
+    }
+}
+
+@media (min-width: 768px){
+    .img-empresa {
+        display: flex;
+        height: 330px;
+        max-width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../img/img-empresa.jpg);
+    }
+}
+
+@media (min-width: 992px){
+    .img-empresa {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px){
+    .img-empresa {
+        height: 500px;
+    }
+}
+
+@media (min-width: 2500px){
+    .img-empresa {
+        height: 800px;
+    }
+}
+
+@media (min-width: 768px){
+    .text-img-empresa {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        margin-left: 5%;
+        padding-bottom: 5rem;
+        font-size: 1.5rem;
+        color: black;
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px){
+    .text-img-empresa {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .text-img-empresa {
+        padding-bottom: 12rem;
+    }
+}
+
+.q-titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.img-contacto {
+    display: flex;
+    flex-flow: column;
+    height: 650px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/contacta-con-nosotros.jpg");
+}
+
+@media (min-width:1200px){
+    .img-contacto{
+        height: 750px;
+    }
+}
+
+@media (min-width:1800px){
+    .img-contacto{
+        height: 850px;
+    }
+}
+
+
+.desc {
+    font-size: 2rem;
+}
+
+@media (min-width:768px){
+    .desc {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:1200px){
+    .desc {
+        font-size: 1.8rem;
+    }
+}
+
+@mixin mixin_buttons{
+    width: 80%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    align-self: center;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+}
+
+#productos-inicio button, .card button, .button-conocer, .btn-productos {
+    @include mixin_buttons;
+}
+
+#productos-inicio button:active, .card button:active, .button-conocer:active, .btn-productos:active{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+@media (min-width:992px){
+    #productos-inicio button:hover, .card button:hover, .button-conocer:hover, .btn-productos:hover{
+        background-color: red!important;
+        color: white!important;
+        border: 1px solid red;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width:1024px){
+    #productos-inicio button, .card button, .button-conocer, .btn-productos{
+        font-size: 1.7rem;
+    }
+}
+
+.button-productos {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 5rem;
+}
+
+@media (min-width: 992px){
+    .button-productos-carousel {
+        text-align: left;
+        margin: 0;
+    }
+}
+
+.btn-productos{
+    width: 50%;
+}
+
+@media (min-width: 576px) {
+    .btn-productos{
+        width: 130px;
+    }
+}
+
+.button-conocer {
+    margin-top: 1rem;
+    width: 40%;
+}
+
+@media (min-width:425px){
+    .button-conocer {
+        width: 30%;
+    }
+}
+
+@media (min-width:768px){
+    .button-conocer {
+        margin-top: 0px;
+        width: 140px;
+    }
+}
+
+.title-conocer {
+    font-weight: bold;
+}
+
+.div-button-conocer {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.pop-up-session, .pop-up-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 2;
+    font-size: 2rem;
+}
+
+.pop-up-session {
+    background: #0000003b;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-up-content {
+    background: white;
+    width: 25%;
+    height: 35%;
+}
+
+.pop-up-content input{
+    border-radius: 1rem;
+    padding-left: 10px;
+}
+
+#auth-confirmation{
+    width: 60%;
+}
+
+#auth-confirmation:active{
+    color: white;
+    background-color: red;
+}
+
+.disabled {
+    background-color: dimgrey!important;
+    color: linen!important;
+    opacity: 1!important;
+    #btn-log:hover, #btn-log:active{
+        background-color: dimgrey!important;
+        color: linen!important;
+    }
+}
+
+.p-price {
+    font-size: 2rem;
+}

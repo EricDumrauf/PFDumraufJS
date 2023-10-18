@@ -1,0 +1,68 @@
+[
+    {
+        "img": "OPUS-QUAD_prm_frontangle_221223.png",
+        "name": "OPUS-QUAD",
+        "description": "Sistema de DJ profesional para perfomance all in one de 4 canales",
+        "price": "4.200.000"
+    },
+    {
+        "img": "XDJ-RX3_prm_frontangle_210830_pc.png",
+        "name": "XDJ-RX3",
+        "description": "Sistema de DJ para performances all in one de 2 canales",
+        "price": "1.500.000"
+    },
+    {
+        "img": "pc-cgi_frontangle.png",
+        "name": "DDJ-FLX10",
+        "description": "Controlador DJ para performances de 4 canales",
+        "price": "1.300.000"
+    },
+    {
+        "img": "ddj-rev7_prm_frontangle_1792x1316_pc.png",
+        "name": "DDJ-REV7",
+        "description": "Controlador DJ profesional de 2 canales de estilo scratch",
+        "price": "1.200.000"
+    },
+    {
+        "img": "ddj-rev1_prm_frontangle_1792x1316_pc.png",
+        "name": "DDJ-REV1",
+        "description": "Controlador DJ de 2 canales de estilo scratch para Serato DJ Lite",
+        "price": "970.000"
+    },
+    {
+        "img": "DDJ-400_CGI_front angle_1792x1316.jpg",
+        "name": "DDJ-400",
+        "description": "Controlador DJ de 2 canales para rekordbox",
+        "price": "600.000"
+    },
+    {
+        "img": "ddj-sr2-front-angle-nn.png",
+        "name": "DDJ-SR2",
+        "description": "Controlador DJ para performances de 2 canales para Serato DJ Pro",
+        "price": "750.000"
+    },
+    {
+        "img": "DDJ-FLX6-GT.png",
+        "name": "DDJ-FLX6-GT",
+        "description": "Controlador DJ de 4 canales para múltiples aplicaciones de DJ",
+        "price": "930.000"
+    },
+    {
+        "img": "CDJ-3000-top-hero.png",
+        "name": "CDJ 3000",
+        "description": "Reproductor múltiple profesional para DJ",
+        "price": "5.400.000"
+    },
+    {
+        "img": "XDJ-1000MK2.jpg",
+        "name": "XDJ-1000MK2",
+        "description": "Multireproductor DJ para performances<",
+        "price": "2.330.000"
+    },
+    {
+        "img": "xdj-700.jpg",
+        "name": "XDJ-700",
+        "description": "Multireproductor DJ compacto<",
+        "price": "1.750.000"
+    }
+]
